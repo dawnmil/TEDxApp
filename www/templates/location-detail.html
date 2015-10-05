@@ -1,0 +1,27 @@
+<ion-view view-title="{{locationH.name}}">
+   <ion-content class="padding">
+    
+    <div style="center;">
+      <img id="location_pic" ng-src={{locationH.image}} alt="pic">
+      </div>
+
+    <p>
+      {{locationH.cuisineType}}<br/>
+    </p>
+    <p>
+      {{locationH.description}}<br/>
+    </p>
+    <p> 
+      {{locationH.address}}<br/>
+      {{locationH.phone_number}}<br/>
+      {{locationH.todaysHoursOfOps}}<br/>
+      {{locationH.distance}}
+      
+
+      <div style="float:left;" ng-repeat="star in Stars">
+      <i class="icon ion-star"></i>
+      
+      </div>
+    </p>
+  </ion-content>
+</ion-view>
