@@ -1,5 +1,6 @@
 <ion-view view-title="{{locationH.name}}">
-   <ion-content class="padding">
+   <ion-content ng-controller="MapCtrl" class="padding">
+   		<div id="map"></div>
     
     <div style="center;">
       <img id="location_pic" ng-src={{locationH.image}} alt="pic">

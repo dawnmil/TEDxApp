@@ -1,5 +1,6 @@
 <ion-view view-title="Locations">
   <ion-content class="padding">
+  {{ filter_expression | filter : expression : comparator}}
     <ion-list>
       <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="location in locations" type="item-text-wrap" href="#/tab/location/{{location.id}}">
         <h2>{{location.name}}</h2>
@@ -14,5 +15,6 @@
         </ion-option-button>-->
       </ion-item>
     </ion-list>
+    <div id="map"></div>
   </ion-content>
 </ion-view>

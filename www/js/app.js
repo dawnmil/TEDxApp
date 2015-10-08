@@ -43,13 +43,23 @@ angular.module('TEDxApp', ['ionic', 'TEDxApp.controllers', 'TEDxApp.services'])
       }
     }
   })
-  
+
   .state('tab.location-detail', {
     url: '/location/:locationId',
     views: {
       'tab-location': {
         templateUrl: 'templates/location-detail.html',
         controller: 'LocationDetailCtrl'
+      }
+    }
+  })
+
+.state('tab.map', {
+    url: '/map',
+    views: {
+      'tab-map': {
+        templateUrl: 'templates/tab-map.html',
+        controller: 'MapCtrl'
       }
     }
   });
