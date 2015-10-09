@@ -21,7 +21,7 @@
       "longitude":-75.6227766,
       "image":""
     }
-],
+]},
 { "restaurant": [
     { "id":3,
       "name":"La Fia Market Bistro",
@@ -59,7 +59,7 @@
                         "Saturday":"12pm - 1am",
                         "Sunday":"12pm - 1am" }
                     ],
-      "cuisineType":"American, Eclectic,"
+      "cuisineType":"American, Eclectic"
       },
     {
       "id":5,
@@ -67,9 +67,9 @@
       "address":"201 N. Market Street. Wilmington, DE 19801",
       "phone_number": "(302) 384-8012",
       "description":"Pizzeria chain specializing in innovative pies customized with unusual toppings.", 
-      "latitude":,
-      "longitude":,
-      "image":"img/ExtremePizza.png"
+      "latitude":39.7389256,
+      "longitude":-75.6226,
+      "image":"img/ExtremePizza.png",
       "hoursOfOps": [
                       { "Monday":"11am - 9pm",
                         "Tuesday":"11am - 9pm",
@@ -218,4 +218,4 @@
                         "Sunday":"closed" }
                     ],
       "cuisineType":"Asian-Fusion"
-     }];
+     }]}]
